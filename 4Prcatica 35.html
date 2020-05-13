@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--esta es mi practica 35-->
+
+<head>
+    <title>Practica 35</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        //problema 1//
+
+        function boton() {
+            var num;
+            num = Math.random() * 3;
+            num = parseInt(num);
+            if (num == 0) {
+                window.location = 'http://www.outlook.com';
+            }
+            if (num == 1) {
+                window.location = 'http://www.gmail.com';
+            }
+            if (num == 2) {
+                window.location = 'http://www.yahoo,com';
+            }
+        }
+    </script>
+    <button onClick="boton()">Esto redirecciona a un servidor de email</button>
+</body>
+
+</html>
